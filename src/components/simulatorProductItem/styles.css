@@ -1,0 +1,36 @@
+.simulatorProductItem {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    box-sizing: border-box;
+    border-bottom: solid #D8D8D8 3px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.simulatorProductItem input {
+    opacity: 0;
+    position: absolute;
+}
+
+.simulatorProductItem h3 {
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: local(Graphik), url(../../../public/fonts/Graphik-Font-Family/GraphikRegular.otf);
+ }
+
+.simulatorProductItem label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    user-select: none;
+    font-family: Graphik;
+}

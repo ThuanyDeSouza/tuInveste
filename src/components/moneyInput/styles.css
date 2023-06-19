@@ -1,0 +1,36 @@
+.moneyInput {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.moneyInput .value{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #111;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 0px;
+}
+
+.moneyInput input {
+    font-size: 100%;
+    color: #111;
+    font-weight: bold;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
