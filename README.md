@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Tuinveste - Simulador de Investimentos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Time de Desenvolvedores
+- Patrick de Freitas Bassan
+- Thuany De Souza
+- Bruno Schroeder Menslin
+- Carlos Eduardo de Souza Leal
+- Tiago Luiz Orlamünder
 
-## Available Scripts
+## Clientes
+- Maria Eduarda Sena Moulin
+- Gabriela Cristini de Souza
+- Cassandra de Paula de Lima
+- Arilene Bahião de Novaes
 
-In the project directory, you can run:
+## Nome do projeto
+Tuinveste - Simulador de Investimentos
 
-### `npm start`
+## Objetivo
+Criar um sistema para simular diferentes tipos de investimentos, no qual seja possível calcular com base no valor e/ou no tempo desejado, possibilitando também, gerar o relatório com os resultados do cálculo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Gerenciamento do Projeto
+Trello: [Kanban Tuinveste](https://trello.com/b/yFJ4mpMA/kanban-tuinveste)
+![image](https://github.com/tiagoorlamunder/tuinveste/assets/61787168/51fdcf19-5c1c-464a-8e5f-79d7b7a6f980)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Especificação do Projeto
 
-### `npm test`
+## Requisitos Funcionais
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- O sistema deve calcular e mostrar a taxa utilizada, bem como o retorno do investimento ao mês em diferentes modalidades de investimentos como CDB, LCI e LCA.
 
-### `npm run build`
+- O sistema deve mostrar a quantia do rendimento em um extrato, informando também os descontos legais como: IR, os 15% em caso de tributação progressiva e os descontos de tributação regressiva de acordo com a alíquota do plano de investimento, respeitando a tabela abaixo.
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/tiagoorlamunder/tuinveste/assets/61787168/e2bd9961-ce7a-430c-9d39-6ba43de31e5c)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- O sistema deve fornecer descrição superficial dos investimentos (exemplo: O que é um CDB?).
 
-### `npm run eject`
+- O sistema deve permitir gerar um relatório comparativo com as diferentes modalidades de investimento.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- O sistema deve possuir a opção de criar conta e efetuar login.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Requisitos Não-Funcionais
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- O sistema deve ser capaz de lidar com um grande número de usuários e transações de forma eficiente, sem lentidão ou travamento. Os tempos de resposta devem ser rápidos e consistentes, e o sistema deve ser capaz de lidar com cargas de pico sem degradação do desempenho;
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- O sistema deve ser amigável e fácil de navegar, com uma interface limpa e intuitiva;
 
-## Learn More
+- O sistema deve rodar em plataforma WEB;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Caso de Uso
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Tuinveste - Atividade](https://github.com/tiagoorlamunder/tuinveste/assets/61787168/2663b46f-05bb-40e0-aad7-b02c89cecfa5)
 
-### Code Splitting
+## Diagrama de Arquitetura
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Diagrama em branco (1)](https://github.com/tiagoorlamunder/tuinveste/assets/61787168/b1c3af25-c13e-478b-874c-a2e6c92d41df)
 
-### Analyzing the Bundle Size
+## Mockups
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Figma: https://www.figma.com/file/BPTirQvmXJEm4UcZc11lB4/TuInveste?node-id=0-1&t=NixKw0q2wwNZqwt5-0
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Concordância do cliente formalizada
 
-### Advanced Configuration
+Caro analista,
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Em nome da Contábeis Católica, gostaria de expressar nossa concordância com o escopo do projeto que nos foi apresentado. Após revisar cuidadosamente o documento, estamos satisfeitos com as etapas delineadas e acreditamos que o escopo proposto atende aos nossos objetivos e requisitos.
 
-### Deployment
+Por meio desta carta, gostaríamos de confirmar que autorizamos sua empresa a prosseguir com o trabalho descrito no escopo do projeto. Acreditamos que sua equipe é capaz de fornecer resultados de alta qualidade dentro dos prazos acordados e estamos ansiosos para ver os resultados finais.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Entendemos que este projeto envolverá um esforço conjunto e estaremos disponíveis para trabalhar em estreita colaboração com sua equipe para garantir que o projeto seja concluído com sucesso. Agradecemos antecipadamente o compromisso da sua empresa em entregar este projeto de acordo com as especificações acordadas.
 
-### `npm run build` fails to minify
+Cordialmente,
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Equipe Contábeis Católica
